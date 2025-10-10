@@ -43,3 +43,6 @@ export const categoryEmojies: { [key: string]: string } = {
   "Thanksgiving Freelance": "🍂",
   Default: "🫰🏼",
 };
+
+// Add your OCR.space API key here (free tier available)
+export const OCR_SPACE_API_KEY = 'K83624404688957';

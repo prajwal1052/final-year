@@ -124,7 +124,7 @@ export default function SummaryChart() {
       </Text>
 
       <Text style={{ fontWeight: "700", fontSize: 32, marginBottom: 16 }}>
-        ${barData.reduce((total, item) => total + item.value, 0).toFixed(2)}
+        ₹{barData.reduce((total, item) => total + item.value, 0).toFixed(2)}
       </Text>
       <BarChart
         key={chartKey}

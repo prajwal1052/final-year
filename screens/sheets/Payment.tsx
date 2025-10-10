@@ -64,7 +64,7 @@ export default function Payment() {
               marginTop: 16,
             }}
           >
-            $123,823.50
+            ₹123,823.50
           </Text>
           <Text style={{ textAlign: "center" }}>
             Saving money is the first step on financial freedom, learn more

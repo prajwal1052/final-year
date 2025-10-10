@@ -68,7 +68,7 @@ export default function AddTransaction({
         <View>
           <Card>
             <TextInput
-              placeholder="$Amount"
+              placeholder="₹Amount"
               style={{ fontSize: 32, marginBottom: 15, fontWeight: "bold" }}
               keyboardType="numeric"
               onChangeText={(text) => {

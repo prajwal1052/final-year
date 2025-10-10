@@ -21,6 +21,7 @@ import { BlurView } from "expo-blur";
 import { SymbolView } from "expo-symbols";
 import { useNavigation } from "@react-navigation/native";
 import SummaryChart from "../components/SummaryChart";
+import ReceiptScannerButton from "../components/ReceiptScannerButton";
 
 export default function Home() {
   const navigation = useNavigation();
@@ -118,6 +119,7 @@ export default function Home() {
         }}
       >
         <AddTransaction insertTransaction={insertTransaction} />
+        <ReceiptScannerButton categories={categories} insertTransaction={insertTransaction} />
         <Button
           title="Delete All Transactions"
           onPress={deleteAllTransactions}
@@ -148,7 +150,7 @@ export default function Home() {
           <View>
             <Text style={{ color: "gray" }}>Lifetime savings</Text>
             <Text style={{ fontWeight: "bold", fontSize: 28 }}>
-              $123,823.50
+              ₹123,823.50
             </Text>
           </View>
           <TouchableOpacity
@@ -194,7 +196,7 @@ function TransactionSummary({
   // Helper function to format monetary values
   const formatMoney = (value: number) => {
     const absValue = Math.abs(value).toFixed(2);
-    return `${value < 0 ? "-" : ""}$${absValue}`;
+    return `${value < 0 ? "-" : ""}₹${absValue}`;
   };
 
   return (

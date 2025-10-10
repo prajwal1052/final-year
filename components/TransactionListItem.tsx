@@ -105,7 +105,7 @@ function Amount({
         numberOfLines={1}
         style={[styles.amount, { maxWidth: "80%" }]}
       >
-        ${amount}
+        ₹{amount}
       </AutoSizeText>
     </View>
   );

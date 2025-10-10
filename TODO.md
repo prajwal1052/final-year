@@ -1,0 +1,5 @@
+- [x] Update screens/Home.tsx: Change $ to ₹ in formatMoney function and commented hardcoded value
+- [x] Update components/TransactionListItem.tsx: Change ${amount} to ₹{amount} in Amount component
+- [x] Update components/AddTransaction.tsx: Change placeholder "$Amount" to "₹Amount"
+- [x] Update screens/sheets/Payment.tsx: Change $123,823.50 to ₹123,823.50
+- [x] Update components/SummaryChart.tsx: Change $ to ₹ in total amount display
