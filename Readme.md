@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Budget Buddy App, a real-world budget management application built with SQLite and Expo 50. This project demonstrates the power of developing local-first applications that manage complex data structures with instant performance for CRUD operations.
+Welcome to the Budget Buddy App, a real-world budget management application built with SQLite and Expo 50. This project demonstrates the power of developing local-first applications that manage complex data structures with instant performance for CRUD operation.
 
 ### About the App
 
